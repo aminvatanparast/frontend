@@ -159,6 +159,7 @@ function MyMap({location , property}) {
                                 ))}
                             </>
                         }
+
                         {markerCoordinates && (
                             <Marker
                                 longitude={markerCoordinates.longitude}
