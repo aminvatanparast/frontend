@@ -23,7 +23,7 @@ const Page = () => {
         <div>
             <div className={"flex items-center"}>
                 <div className={"w-1/5 m-2"}>
-                    <CustomSelect options={list} onchange={(e) => setDeveloperName(e)}/>
+                    <CustomSelect options={list} onChange={(e) => setDeveloperName(e)}/>
                 </div>
                 <div className={"w-1/5 m-2"}>
                     <CustomCheckBox onCheck={(e) => setProperty(e)} label={"see property"}/>

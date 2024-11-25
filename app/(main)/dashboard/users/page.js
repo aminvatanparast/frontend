@@ -19,7 +19,7 @@ const Page = () => {
         <div>
             <div className={"flex gap-10 mt-1"}>
                 <div className={"w-1/5"}>
-                    <CustomSelect options={list} onchange={(e) => setTableType(e)}/>
+                    <CustomSelect options={list} onChange={(e) => setTableType(e)}/>
                 </div>
                 {/*<Filter/>*/}
             </div>
